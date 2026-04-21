@@ -14,6 +14,7 @@
 **/*.out
 **/*.toc
 **/*.synctex.gz
+**/*.tex
 
 # Generic generated / temporary files
 **/*.tmp
