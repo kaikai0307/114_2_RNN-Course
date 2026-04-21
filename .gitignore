@@ -1,0 +1,53 @@
+# Keep the whole course repo as a single git repo, but only track source/report assets.
+
+# Old nested-repo backup
+.git_history_backup/
+
+# Python / notebook cache
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/*.py[cod]
+
+# LaTeX / build artifacts
+**/*.aux
+**/*.log
+**/*.out
+**/*.toc
+**/*.synctex.gz
+
+# Generic generated / temporary files
+**/*.tmp
+**/*.html
+.DS_Store
+
+# Large / derived data files that should not be pushed by default
+**/*.csv
+**/*.json
+**/*.parquet
+**/*.ckpt
+**/*.bin
+**/*.safetensors
+**/*.pt
+**/*.pth
+**/*.xlsx
+**/*.pdf
+
+# Common experiment / model directories
+**/model/
+**/models/
+**/outputs/
+
+# HW-specific files we do not need on GitHub
+HW2/Homework 2.pdf
+
+# Keep source, reports, notebooks, figures, and gitignore files
+!**/*.md
+!**/*.py
+!**/*.ipynb
+!**/*.tex
+!**/*.png
+!**/*.jpg
+!**/*.jpeg
+!**/*.gif
+!**/*.svg
+!**/.gitignore
