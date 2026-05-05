@@ -1,5 +1,6 @@
 # Keep the whole course repo as a single git repo, but only track source/report assets.
 
+**/.codex
 # Old nested-repo backup
 .git_history_backup/
 
@@ -34,6 +35,9 @@
 **/*.zip
 **/*.pdf
 
+
+
+
 # Common experiment / model directories
 **/model/
 **/models/
@@ -56,8 +60,6 @@ HW2/Homework 2.pdf
 
 # HW3
 HW3/Homework 3.pdf
-HW3/sample/
 HW3/artifacts/
-HW3/data/
 HW3/db_*
 HW3/ollama/
