@@ -432,3 +432,4 @@ Llama 改寫後做的事情其實很典型：
 - BERT fine-tuning：`BERT.py`
 - Local LLM attack：`LocalLLM.py`
 - 共用工具：`hw2_utils.py`
+- GitHub 連結：<https://github.com/kaikai0307/114_2_RNN-Course/tree/main/HW2>

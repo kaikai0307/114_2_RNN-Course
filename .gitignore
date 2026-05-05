@@ -31,11 +31,13 @@
 **/*.pt
 **/*.pth
 **/*.xlsx
+**/*.zip
 **/*.pdf
 
 # Common experiment / model directories
 **/model/
 **/models/
+**/data/
 **/outputs/
 
 # HW-specific files we do not need on GitHub
@@ -45,10 +47,17 @@ HW2/Homework 2.pdf
 !**/*.md
 !**/*.py
 !**/*.ipynb
-!**/*.tex
 !**/*.png
 !**/*.jpg
 !**/*.jpeg
 !**/*.gif
 !**/*.svg
 !**/.gitignore
+
+# HW3
+HW3/Homework 3.pdf
+HW3/sample/
+HW3/artifacts/
+HW3/data/
+HW3/db_*
+HW3/ollama/

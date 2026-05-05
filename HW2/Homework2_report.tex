@@ -58,6 +58,8 @@
 This report summarizes Homework 2 for the course \textit{RNN and Transformer}. The homework studies AI-generated text detection on the \texttt{DAIGT V2} dataset and analyzes whether a local instruction-tuned large language model can rewrite human essays in a way that fools a trained detector. The full pipeline is built around a shared cleaned dataset and a fixed stratified train-validation split so that all experiments are directly comparable. Part 1 performs data cleaning, exploratory data analysis, and two TF-IDF plus logistic-regression baselines. Part 2 fine-tunes \texttt{bert-base-cased} and \texttt{bert-large-cased} under the same split and evaluation protocol. Part 3 applies \texttt{Meta-Llama-3-8B-Instruct} to rewrite essays and evaluates the rewritten outputs with the best detector. The main findings are as follows. First, the dataset already contains strong surface-level signals, so TF-IDF baselines achieve extremely high scores. Second, \texttt{bert-large-cased} is the best detector, but its gain over \texttt{bert-base-cased} is small relative to the extra training cost. Third, the local LLM rewriting attack completely fails in the tested setting: rewritten texts are not harder to detect, but instead become much more likely to be classified as AI-generated. This indicates that making a text more fluent, cleaner, and more stylistically uniform can itself become a strong detection cue.
 \end{abstract}
 
+\noindent\textbf{GitHub link for HW2:} \url{https://github.com/kaikai0307/114_2_RNN-Course/tree/main/HW2}
+
 \section{Assignment Objective and Experimental Setup}
 
 \begin{itemize}
