@@ -1,0 +1,12 @@
+accelerate
+bitsandbytes
+datasets
+matplotlib
+peft
+pillow
+protobuf
+safetensors
+sentencepiece
+torch
+transformers
+trl
